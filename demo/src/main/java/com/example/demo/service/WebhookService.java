@@ -44,7 +44,6 @@ public class WebhookService {
                 System.out.println("Access Token received: " + response.getAccessToken());
 
                 // Step 2: Determine which SQL query to use based on registration number
-                // REG12347 ends with 7 (odd), so using the provided SQL query
                 System.out.println("\nStep 2: Using SQL query for odd registration number");
 
                 // Step 3: Submit the solution
